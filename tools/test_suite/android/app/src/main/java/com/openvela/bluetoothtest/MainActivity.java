@@ -42,6 +42,7 @@ import com.openvela.bluetoothtest.LocalAdapter.OnOffActivity;
 import com.openvela.bluetoothtest.ble.BleScanActivity;
 import com.openvela.bluetoothtest.ble.BlePeripheralActivity;
 import com.openvela.bluetoothtest.bredr.BredrInquiryActivity;
+import com.openvela.bluetoothtest.bredr.SppActivity;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = MainActivity.class.getSimpleName();
@@ -71,8 +72,13 @@ public class MainActivity extends AppCompatActivity {
     public void entryOnOffActivity(View view) {
         startActivity(new Intent(this, OnOffActivity.class));
     }
+
     public void entryBredrInquiryActivity(View view) {
         startActivity(new Intent(this, BredrInquiryActivity.class));
+    }
+
+    public void entrySppActivity(View view) {
+        startActivity(new Intent(this, SppActivity.class));
     }
 
     public void entryBleCentralActivity(View view) {

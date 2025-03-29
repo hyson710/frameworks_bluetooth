@@ -5,6 +5,9 @@
     <string name="disable">Disable</string>
     <string name="cycle_test">Cycle Test</string>
     <string name="bredr_inquiry">BREDR Inquiry</string>
+    <string name="spp">SPP</string>
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
     <string name="ble_scan">BLE Scan</string>
     <string name="ble_central">BLE Central</string>
     <string name="ble_peripheral">BLE Peripheral</string>

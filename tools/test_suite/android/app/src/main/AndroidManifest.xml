@@ -39,6 +39,10 @@
             android:label="@string/bredr_inquiry" />
 
         <activity
+            android:name=".bredr.SppActivity"
+            android:label="@string/spp" />
+
+        <activity
             android:name=".ble.BleScanActivity"
             android:label="@string/ble_scan" />
 

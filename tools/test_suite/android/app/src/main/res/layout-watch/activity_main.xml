@@ -37,6 +37,18 @@
             app:layout_constraintTop_toBottomOf="@+id/button_on_off" />
 
         <Button
+            android:id="@+id/button_spp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="entrySppActivity"
+            android:text="@string/spp"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="@+id/button_bredr_inquiry"
+            app:layout_constraintStart_toStartOf="@+id/button_bredr_inquiry"
+            app:layout_constraintTop_toBottomOf="@+id/button_bredr_inquiry" />
+
+        <Button
             android:id="@+id/button_ble_peripheral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,9 +56,9 @@
             android:onClick="entryBlePeripheralActivity"
             android:text="@string/ble_peripheral"
             android:textAllCaps="false"
-            app:layout_constraintEnd_toEndOf="@+id/button_bredr_inquiry"
-            app:layout_constraintStart_toStartOf="@+id/button_bredr_inquiry"
-            app:layout_constraintTop_toBottomOf="@+id/button_bredr_inquiry" />
+            app:layout_constraintEnd_toEndOf="@+id/button_spp"
+            app:layout_constraintStart_toStartOf="@+id/button_spp"
+            app:layout_constraintTop_toBottomOf="@+id/button_spp" />
 
         <Button
             android:id="@+id/button_ble_central"
